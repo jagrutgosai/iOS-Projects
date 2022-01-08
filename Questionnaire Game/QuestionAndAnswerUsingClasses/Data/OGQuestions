@@ -1,0 +1,129 @@
+[
+        {
+            "question" : "Canada is the second largest country in the world",
+            "answer" : true,
+            "answerExtraInfo" : "Russia is 17,080,000 km², Canada is 9,985,000 km²"
+        },
+        {
+            "question" : "Toronto is the capital of Canada",
+            "answer" : false,
+            "answerExtraInfo" : "It's the capital of Ontario. Ottawa is the capital of Canada, second coldest capital in the world."
+        },
+        {
+            "question" : "Jim Carrey, Shania Twain, James Cameron and Alex Trebek are all Canadian",
+            "answer" : true,
+            "answerExtraInfo" : "So are Ryan Gosling, Avril Lavigne, Michael Cera, Rachel McAdams, Seth Rogen, Pam Anderson, Steve Nash and Wolverine."
+        },
+        {
+            "question" : "Queen Elizabeth II is the Canadian Head of State",
+            "answer" : true,
+            "answerExtraInfo" : "But the British Monarchy holds no real power over Canada."
+        },
+        {
+            "question" : "Canada borders three other countries",
+            "answer" : false,
+            "answerExtraInfo" : "Just the one neighbor, with 8,891 kilometres of border, the longest undefended border in the world."
+        },
+        {
+            "question" : "Canada has the world's longest coastline",
+            "answer" : true,
+            "answerExtraInfo" : "200,000 - 265,000 km of it, depending on how you calculate it."
+        },
+        {
+            "question" : "Canada holds the record for the most gold medals ever won at the Summer Olympics",
+            "answer" : false,
+            "answerExtraInfo" : "But they do for the Winter Olympics (2010 Vancouver Winter Olympics - 14 gold medals)."
+        },
+        {
+            "question" : "Hockey is the only official sport of Canada",
+            "answer" : false,
+            "answerExtraInfo" : "It is for winter. Lacrosse is Canada's official summer sport (and Canada claims to have invented Basketball.)"
+        },
+        {
+            "question" : "Celine Dion is the top selling female artist of all time",
+            "answer" : false,
+            "answerExtraInfo" : "She is third, only behind Madonna and Mariah Carey."
+        },
+        {
+            "question" : "The Toronto Maple Leafs haven't won the Stanley Cup in over 40 years",
+            "answer" : true,
+            "answerExtraInfo" : "They haven't even made an appearance in the Stanley Cup finals since 1967."
+        },
+        {
+            "question" : "Canada has the world's longest freshwater beach",
+            "answer" : true,
+            "answerExtraInfo" : "Wasaga Beach on Georgian Bay is the world’s longest at 14 km."
+        },
+        {
+            "question" : "Toronto's CN Tower is the world's tallest free-standing structure",
+            "answer" : false,
+            "answerExtraInfo" : "It was for 34 years, but the Burj Khalifa and Canton Tower have since eclipsed it."
+        },
+        {
+            "question" : "Poutine is a dish made from maple syrup and lobster",
+            "answer" : false,
+            "answerExtraInfo" : "That's disgusting. Poutine is French fries, cheese curds and gravy. Yummy!"
+        },
+        {
+            "question" : "James Doohan, famous for 'Scotty' on Star Trek, was Canadian",
+            "answer" : true,
+            "answerExtraInfo" : "And so is William Shatner, but you knew that."
+        },
+        {
+            "question" : "Abraham Lincoln was president when Canada became a country",
+            "answer" : false,
+            "answerExtraInfo" : "Lincoln (died): 1865. Canada (born): 1867."
+        },
+        {
+            "question" : "The current 'maple leaf' Canadian flag is older than the current US '50 stars' flag",
+            "answer" : false,
+            "answerExtraInfo" : "The Canadian flag was adopted by parliament in 1965, the US flag in 1960."
+        },
+        {
+            "question" : "You can see the Rocky Mountains from Vancouver",
+            "answer" : false,
+            "answerExtraInfo" : "The Rockies are over 500km away, but you can see the North Shore Mountains."
+        },
+        {
+            "question" : "The population of Spain is greater than the population of Ontario",
+            "answer" : true,
+            "answerExtraInfo" : "Greater than the entire population of Canada, actually, which is about 35 million."
+        },
+        {
+            "question" : "Montreal is the world’s largest French speaking city",
+            "answer" : false,
+            "answerExtraInfo" : "Paris is. But Montreal is second."
+        },
+        {
+            "question" : "Canada spans 8 time zones",
+            "answer" : false,
+            "answerExtraInfo" : "Only 6 time zones, that's enough isn't it?"
+        },
+        {
+            "question" : "Canada declared war on Germany in WWII at the same time as the USA",
+            "answer" : false,
+            "answerExtraInfo" : "Canada declared war a full two years before the USA, to support the UK's declaration."
+        },
+        {
+            "question" : "Canada is the United States' largest supplier of crude oil",
+            "answer" : true,
+            "answerExtraInfo" : "Followed by Saudi Arabia, Mexico, Venezuela and Nigeria (2011)"
+        },
+        {
+            "question" : "Canada has the lowest population density in the world",
+            "answer" : false,
+            "answerExtraInfo" : "Mongolia holds that honour, by most accounts, but Canada is up there."
+        },
+        {
+            "question" : "Canada contains around one-tenth of the entire world's renewable water supply",
+            "answer" : true,
+            "answerExtraInfo" : "9% actually. That's a lot of lakes!"
+        },
+        {
+            "question" : "You can fit the UK inside of Hudson Bay",
+            "answer" : true,
+            "answerExtraInfo" : "A few times, if you squish it around a bit."
+        }
+    
+]
+

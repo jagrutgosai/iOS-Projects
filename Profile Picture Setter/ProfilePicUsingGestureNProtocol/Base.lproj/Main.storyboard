@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ylw-WV-dUz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Your Profile Picture-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProfilePicUsingGestureNProtocol" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="steve-jobs-1" translatesAutoresizingMaskIntoConstraints="NO" id="3N8-2y-5bZ">
+                                <rect key="frame" x="107" y="371" width="200" height="200"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstItem="3N8-2y-5bZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3MX-qI-KWO"/>
+                            <constraint firstItem="3N8-2y-5bZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="283" id="TeJ-ux-hvf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3N8-2y-5bZ" secondAttribute="bottom" constant="291" id="daE-cn-NZN"/>
+                            <constraint firstItem="3N8-2y-5bZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="dn0-Uf-5GW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Your Profile Picture" id="x3w-FC-hvy"/>
+                    <connections>
+                        <outlet property="imgProfile" destination="3N8-2y-5bZ" id="br8-LS-gag"/>
+                        <segue destination="b51-2x-vQA" kind="show" identifier="toProfileView" id="rbS-E0-HWc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="109.82142857142857"/>
+        </scene>
+        <!--Select Profile Picture-->
+        <scene sceneID="5Yb-cr-TMo">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="b51-2x-vQA" customClass="ProfileViewController" customModule="ProfilePicUsingGestureNProtocol" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ujn-N3-cB9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="48wmz4r6j6241" translatesAutoresizingMaskIntoConstraints="NO" id="X4G-Wd-e35">
+                                <rect key="frame" x="20" y="133" width="200" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img7" translatesAutoresizingMaskIntoConstraints="NO" id="9eJ-Sw-njf">
+                                <rect key="frame" x="194" y="671" width="200" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="z394307odi741" translatesAutoresizingMaskIntoConstraints="NO" id="L8J-ws-SLg">
+                                <rect key="frame" x="194" y="315" width="200" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img5" translatesAutoresizingMaskIntoConstraints="NO" id="aht-EA-SQ4">
+                                <rect key="frame" x="20" y="491" width="200" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KQh-U6-ZFs"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Select Profile Picture" id="mcL-hD-aWH"/>
+                    <connections>
+                        <outletCollection property="images" destination="X4G-Wd-e35" collectionClass="NSMutableArray" id="boL-CZ-Z8M"/>
+                        <outletCollection property="images" destination="L8J-ws-SLg" collectionClass="NSMutableArray" id="M7D-89-M0w"/>
+                        <outletCollection property="images" destination="aht-EA-SQ4" collectionClass="NSMutableArray" id="MZ5-AB-JSt"/>
+                        <outletCollection property="images" destination="9eJ-Sw-njf" collectionClass="NSMutableArray" id="8Jl-qe-8OL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xsF-Ol-zVG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1873.913043478261" y="109.82142857142857"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ddk-e4-pNd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ylw-WV-dUz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zQF-lg-40s">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="SGU-N8-cKB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B1R-NK-5mV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="48wmz4r6j6241" width="1439" height="2094"/>
+        <image name="img5" width="124" height="123"/>
+        <image name="img7" width="124" height="123"/>
+        <image name="steve-jobs-1" width="1049" height="1049"/>
+        <image name="z394307odi741" width="1920" height="1920"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
